@@ -5,7 +5,7 @@ console.log('START------->');
 //console.log(cfenv.getAppEnv().getService('mymongo'));
 console.log(process.env.mongouri);
 console.log('END------->');
-injection.bindFactory('port', process.env.PORT || 3000);
+injection.bindFactory('port', process.env.PORT || 8080);
 injection.bindFactory('dbUrl', process.env.mongouri);
 //injection.bindFactory('dbUrl', vcap_services.mlab[0].credentials.uri);
 //injection.bindFactory('dbUrl', cfenv.getAppEnv().getService('mymongo').credentials.uri);
