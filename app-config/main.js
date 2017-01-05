@@ -14,6 +14,7 @@ A.app({
         title: 'Gifts',
         fields: {
           item: Fields.text("Item").required(),
+          yup: Fields.text("Yup").required(),
           date: Fields.date("Giving Date").required(),
           summary: Fields.text("Summary"),
           datetwo: Fields.date("Due date"),
