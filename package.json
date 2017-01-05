@@ -1,0 +1,17 @@
+{
+  "name": "helloworld-app",
+  "version": "1.0.0",
+  "author": {
+    "name": "niel",
+    "email": "nieleyde@gmail.com"
+  },
+  "description": "this is a test",
+  "dependencies": {
+    "allcountjs": "^1.14.5",
+    "cfenv": "1.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "allcountjsTemplate": "twenty-two-lines"
+}
