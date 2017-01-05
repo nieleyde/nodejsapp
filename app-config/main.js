@@ -17,7 +17,8 @@ A.app({
           date: Fields.date("Giving Date").required(),
           summary: Fields.text("Summary"),
           datetwo: Fields.date("Due date"),
-          isComplete: Fields.checkbox("Completed")          
+          isComplete: Fields.checkbox("Completed"),          
+          isFriendly: Fields.checkbox("Friendly")          
         }
       }
     }
